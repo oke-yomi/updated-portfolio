@@ -1,0 +1,148 @@
+.form_1 {
+	padding: 7.75rem 0 7rem;
+	text-align: center;
+	background-color: #f7f9fb;
+}
+.form_1 .s_contact {
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+	padding: 0 15px;
+	margin: 10px 0;
+}
+.container {
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.col_lg_12 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.form_1 .p_heading {
+	margin-bottom: 4rem;
+	color: #4d5055;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: normal;
+	font-size: 1rem;
+	line-height: 1.625rem;
+	font-family: "Open Sans", sans-serif;
+}
+
+form {
+	display: block;
+}
+.form_group {
+	position: relative;
+	margin-bottom: 1.25rem;
+}
+.form_1 address {
+	margin-top: 10px;
+}
+.form_1 address a {
+	color: rgb(168, 52, 71) !important;
+}
+.form_control_input {
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	border: 1px solid #cbcbd1;
+	background-color: #ffffff;
+	color: #4d5055;
+	font-size: 0.875rem;
+  outline: none;
+}
+.form_control_input::placeholder,
+.form_control_textarea::placeholder {
+	color: rgb(168, 52, 71);
+}
+
+.form_control_input:focus,
+.form_control_textarea:focus{
+  outline: none;
+  border: 1.5px solid rgb(168, 52, 71);
+}
+
+/* Text Area */
+.form_control_textarea {
+	display: block;
+	width: 100%;
+	resize: none;
+	height: 14rem;
+	padding: 1rem;
+	border: 1px solid #cbcbd1;
+	background-color: #ffffff;
+	color: #4d5055;
+	font-size: 0.875rem;
+  outline: none;
+}
+
+.form_1 button {
+  background-color: rgb(168, 52, 71) !important;
+  width: 25%;
+  border: none !important;
+}
+
+.form_1 button:hover {
+  background-color: #ffffff !important;
+  border: 1px solid rgb(168, 52, 71) !important;
+  color: rgb(168, 52, 71);
+}
+
+.rslt {
+	margin: 0.4rem auto;
+	font-size: 1.2rem;
+	width: 75%;
+	text-align: center;
+}
+
+/*************************/
+/*     Media Queries     */
+/*************************/
+@media (min-width: 768px) {
+	.row {
+		flex-direction: row;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		display: flex;
+	}
+	.row {
+		justify-content: center;
+		width: 50%;
+	}
+	.col_lg_12 {
+		margin: 0 10px;
+	}
+	.form_1 .s_contact {
+		display: block;
+		text-align: left;
+		margin-left: 10px;
+	}
+	.s_contact h2 {
+		padding: 0 15px 40px 15px;
+	}
+	.form_1 .p_heading {
+		text-align: left;
+	}
+}
+@media (min-width: 1200px) {
+	.form_1 .p_heading {
+		font-size: 1.5rem;
+		line-height: 1;
+		text-align: left;
+	}
+	.form_1 address {
+		font-size: 1.2rem;
+		margin-top: 50px;
+	}
+}

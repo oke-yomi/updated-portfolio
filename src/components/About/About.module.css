@@ -1,0 +1,101 @@
+.services {
+  padding-top: 7.75rem;
+  padding-bottom: 5.25rem;
+}
+
+.head_container {
+  padding: 0 15px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.head_container .p_heading {
+  margin-bottom: 4rem;
+}
+.head_container .h2_heading {
+  margin-bottom: 0.75rem;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+.text_box {
+  margin-bottom: 3rem;
+  padding: 3.5rem 1rem 2.125rem;
+  border: 1px solid #cfd7de;
+}
+.text_box h4 {
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.text_box p {
+  margin-bottom: 1rem;
+}
+.text_box p span {
+  color: rgb(168, 52, 71);
+}
+.icons_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.icons_container > * {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.html {
+  color: white;
+  background-color: rgb(241, 133, 93);
+}
+.css {
+  color: white;
+  background-color: hsl(207, 82%, 43%);
+}
+.js {
+  background-color: black;
+  color: rgb(233, 192, 80);
+}
+.react {
+  color: hsl(207, 82%, 43%);
+}
+.next {
+  color: black;
+}
+.tailwind {
+  color: hsl(194, 82%, 43%);
+}
+.typescript {
+  color: hsl(207, 82%, 43%);
+}
+.github {
+  color: black;
+}
+
+/*************************/
+/*     Media Queries     */
+/*************************/
+@media (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .column {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%;
+  }
+}
+@media (min-width: 1200px) {
+}
